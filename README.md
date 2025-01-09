@@ -34,6 +34,14 @@ cd interview-service
 ### 4. Endpunkte testen 
 Nach dem Start läuft der Service unter http://localhost:8080.
 
+| Endpoint            | Beschreibung                        |
+|---------------------|-------------------------------------|
+| `/`                 | Willkommensnachricht                |
+| `/products/hello`   | Gibt "Hello World" zurück           |
+| `/products`         | Gibt eine Liste aller Produkte zurück|
+| `/products/{id}`    | Gibt ein Produkt basierend auf der ID zurück |
+| `/products?category=...` | Filtert Produkte nach Kategorie oder Tags |
+
 ### 5. Beispiel-Daten 
 Die Produktdaten befinden sich in der Datei products.json. Sie werden automatisch beim Start geladen.
 
